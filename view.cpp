@@ -16,7 +16,7 @@ int View::showMenu(){
         
         cin >> choice;
     } while (choice == !4);
-
+    return choice;
 }
 
 
