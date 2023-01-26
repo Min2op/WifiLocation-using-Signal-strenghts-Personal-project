@@ -5,9 +5,11 @@
 using namespace std;
 
 
+
 struct room{
     string roomNo;
     vector<pair<string,int>> macID_SignalStrength;    
+    int guessScore;
 };
 
 class dataset{
@@ -16,6 +18,6 @@ class dataset{
     
     public:
     void setDatafromFiles();
-    room returnDataFromFiles();
+    vector<room> returnDataFromFiles();
 
 };
