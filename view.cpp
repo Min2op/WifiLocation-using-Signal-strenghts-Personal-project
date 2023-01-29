@@ -6,6 +6,7 @@ int View::showMenu(){
     int choice = 0;
     do
     {
+        
         cout << "***************************" << endl;
         cout << " Welcome To the Main Menu " << endl;
         cout << "***************************" << endl;
@@ -15,8 +16,10 @@ int View::showMenu(){
         cout << "4. Exit the programme        " << endl;
         
         cin >> choice;
-    } while (choice == !4);
-
+        return choice;     
+    }while (choice != 4);
+   
+   
 }
 
 

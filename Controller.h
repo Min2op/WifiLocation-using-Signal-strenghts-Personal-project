@@ -6,6 +6,7 @@ class Controller
 {
 private:
     View view;
+    Model model;
 
     
 public:
